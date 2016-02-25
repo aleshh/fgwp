@@ -36,14 +36,21 @@ h2 { text-transform: uppercase }
 }
 
 .column {
-  float:left;
-  border-right: 1px solid #444;
-
-}
-
-.column:first-child {
+  float: left;
+  height: 67px;
   border-left: 1px solid #444;
 }
+
+/* column 3 is between two sets of drawings so no line */
+.col-break {
+  float: left;
+  height: 67px;
+  margin-left: -4px;
+}
+
+/*.column:first-child {
+  border-left: 1px solid #444;
+}*/
 
 .column:last-child {
   border-right: 1px solid #444;
