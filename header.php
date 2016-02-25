@@ -36,36 +36,11 @@
             echo "</div><div class='column'>";
           }
         }
-
-
       }
 
     ?>
 
     </div> <!-- .column -->
-
-<!--
-    <div class="column">
-      <a href="/drawings-figural" class="active" >DRAWINGS::figural</a>
-      <a href="/drawings-expansion">DRAWINGS::expansion</a>
-      <a href="/drawings-biological">DRAWINGS::biological</a>
-    </div>
-    <div class="column3" >
-      <a href="/drawings-topo-field">DRAWINGS::topo/field</a>
-      <a href="/drawings-laminar">DRAWINGS::laminar</a>
-    </div>
-    <div class="column" >
-      <a href="/installation">INSTALLATION</a>
-      <a href="/sculpture">SCULPTURE</a>
-      <a href="/assemblage">ASSEMBLAGE</a>
-    </div>
-    <div class="column">
-      <a href="/video-digital">VIDEO/DIGITAL</a><a href="/text">TEXT</a><a href="/info">INFO</a>
-    </div>
-    <div class="lastcolumn">
-      &nbsp;
-    </div> -->
-
 
   </div> <!-- #menu -->
 </div> <!-- #header -->
