@@ -19,15 +19,32 @@
 
     <div class="column">
     <?php
+
       $cat = get_categories( array(
         'hide_empty'   => 0,
         'orderby'     => 'name'
         ));
+
       $i = 0;
+      $drawings = substr($cat[0]->name, 0, 3);
+
       foreach ($cat as $category) {
+
         $i ++;
         $link = get_category_link($category->term_id);
+
+        if ($drawings) {
+          $current = substr($category->name, 0, 3);
+          if ($current != $drawings) {
+            echo "</div><div class='column'>";
+            $i = 4;
+            $drawings = false;
+            // echo "trigger";
+          }
+        }
+
         echo "<a href='$link'>$category->name</a>";
+
         if ($i % 3 == 0) {
           if ($i == 3) {
             // column 3 is between two sets of drawings so no line
