@@ -41,52 +41,17 @@ h2 { text-transform: uppercase }
   border-left: 1px solid #444;
 }
 
-/* column 3 is between two sets of drawings so no line */
-.col-break {
+/* column 3 is between sets of drawings so no line */
+.column-joined {
   float: left;
   height: 67px;
   margin-left: -4px;
 }
 
-/*.column:first-child {
-  border-left: 1px solid #444;
-}*/
-
 .column:last-child {
   border-right: 1px solid #444;
+  padding-right: 59px;
 }
-
-/*.column {
-  float:left;
-  border-left: 1px solid #444;
-  height: 67px;
-}
-
-.firstcolumn {
-  float:left;
-  border-left: 1px solid #444;
-  height: 67px;
-  width:250px;
-}
-
-.column3 {
-  float:left;
-  height: 67px;
-  margin-left: -4px;
-}
-
-.column4 {
-  float:left;
-  height: 67px;
-  padding-right:30px;
-  margin-left: -4px;
-}
-
-.lastcolumn {
-  float:right;
-  border-right: 1px solid #444;
-  height: 67px;
-}*/
 
 #home img { border: 0;}
 

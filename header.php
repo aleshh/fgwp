@@ -11,7 +11,9 @@
 <body >
 
 <div id="header">
+
   <div id="menu">
+
     <div class="column">
       <a id="home" href="/" ><img alt="Felice Grodin" src="/resources/felicegrodin2.gif" /></a>
     </div>
@@ -47,7 +49,7 @@
         if ($i % 3 == 0 && $i < 7) {
           if ($i == 3) {
             // column 3 is between two sets of drawings so no line
-            echo "</div><div class='col-break'>";
+            echo "</div><div class='column-joined'>";
           } else {
             echo "</div><div class='column'>";
           }
@@ -60,6 +62,7 @@
     </div> <!-- .column -->
 
   </div> <!-- #menu -->
+
 </div> <!-- #header -->
 
 <div id="content">
