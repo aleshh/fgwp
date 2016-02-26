@@ -27,6 +27,8 @@
         'orderby'     => 'name'
         ));
 
+      $active = get_category(get_query_var('cat'))->name;
+
       $i = 0;
       $drawings = substr($cat[0]->name, 0, 3);
 
@@ -44,7 +46,11 @@
           }
         }
 
+        if ($category->name == $active) {
+          echo "<a href='$link' class='active'>$category->name</a>";
+        } else {
         echo "<a href='$link'>$category->name</a>";
+        }
 
         if ($i % 3 == 0 && $i < 7) {
           if ($i == 3) {
