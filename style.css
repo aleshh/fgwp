@@ -13,10 +13,17 @@ Text Domain: alesh-fgwp
 
 @charset "utf-8";
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic);
+
+/*font-family: 'Lato', sans-serif;*/
+/*h1 { font-family: 'Metrophobic', Arial, serif; font-weight: 400; }*/
+
 body {
   margin: 0;
   padding: 0;
   background-color:#444;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 h2 { text-transform: uppercase }
@@ -60,7 +67,7 @@ h2 { text-transform: uppercase }
   background-color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
   font-size: 12px;
   color: #ffffff;
   padding: 2px;
@@ -72,6 +79,8 @@ h2 { text-transform: uppercase }
 #menu a#home {
   width: 250px;
   height: 46px;
+  font-weight: 100;
+  font-size: 1.7em;
 }
 
 #menu a:hover, #menu a.active  { background-color:  #b00;}
@@ -81,7 +90,8 @@ h2 { text-transform: uppercase }
   background-color: #ccc;
   border-left: 1px solid #fff;
 /*  border-right: 1px solid #444; */
-  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-weight: 400;
   font-size: 12px;
   color: #444;
   padding: 2px 1px;
@@ -112,7 +122,7 @@ h2 { text-transform: uppercase }
   top: 114px; */
   width:900px;
   background-color: #eee;
-  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
   font-size: 15px;
   color: #444;
   padding: 45px;
@@ -144,7 +154,7 @@ h2 { text-transform: uppercase }
 
 #note {
   padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
   font-size: 9px;
   letter-spacing: 1px;
   color: #777;

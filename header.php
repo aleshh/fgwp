@@ -14,8 +14,11 @@
 
   <div id="menu">
 
-    <div class="column">
-      <a id="home" href="/" ><img alt="Felice Grodin" src="/resources/felicegrodin2.gif" /></a>
+    <div class="column" id="title-box">
+      <a id="home" href="/" >
+        FELICE GRODIN
+        <!-- <img alt="Felice Grodin" src="/resources/felicegrodin2.gif" /> -->
+      </a>
     </div>
 
 
