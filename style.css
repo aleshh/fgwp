@@ -68,7 +68,8 @@ h2 { text-transform: uppercase }
   text-decoration: none;
   text-transform: uppercase;
   /*font-family: Helvetica, Arial, sans-serif;*/
-  font-size: .73em;
+  font-size: 11px;
+  /*font-size: .73em;*/
   color: #ffffff;
   padding: 2px;
   padding-left: 4px;
