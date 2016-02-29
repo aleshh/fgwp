@@ -31,7 +31,8 @@ h2 { text-transform: uppercase }
 #header {
   text-align: center;
   height:80px;
-  background-color: #ccc;
+  /*background-color: #cccccc;*/
+  background: rgba(255, 255, 255, 0.4);
   border-bottom: 1px solid #000;
 }
 

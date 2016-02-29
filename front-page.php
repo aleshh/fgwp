@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="caption" style="background-color:#444;" >&nbsp;</div>
+<!-- <div id="caption" style="background-color:#444;" >&nbsp;</div> -->
 
 <div id="full-page" style="
   <?php
