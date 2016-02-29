@@ -2,24 +2,27 @@
 
 <div id="caption" style="background-color:#444;" >&nbsp;</div>
 
+<div id="full-page" style="
+  <?php
+    $filecount = 0;
+    $fileexist = true;
+    do {
+      if (file_exists("resources/homepage-images/".($filecount+1).".jpg")) {
+        $filecount++;
+      } else {
+        $fileexist = false;
+      }
+    } while ($fileexist == true);
 
-<?php
-  $filecount = 0;
-  $fileexist = true;
-  do {
-    if (file_exists("resources/homepage-images/".($filecount+1).".jpg")) {
-      $filecount++;
+    if ($filecount == 0) {
+      echo "Error: no images found!";
     } else {
-      $fileexist = false;
+      echo "background-image:url(resources/homepage-images/".(rand(1,$filecount)).".jpg\")";
+      // echo "<img src=\"resources/homepage-images/".(rand(1,$filecount)).".jpg\" alt=\"Felice Grodin, detail\" />";
     }
-  } while ($fileexist == true);
+  ?>
 
-  if ($filecount == 0) {
-    echo "Error: no images found!";
-  } else {
-    echo "<img src=\"resources/homepage-images/".(rand(1,$filecount)).".jpg\" alt=\"Felice Grodin, detail\" />";
-  }
-?>
-
+  ">
+</div>
 
 <?php get_footer(); ?>
