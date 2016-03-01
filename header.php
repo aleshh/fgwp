@@ -8,7 +8,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php if (is_front_page) echo "id='front-page'"; ?>>
+<body <?php if (is_front_page()) echo "id='front-page'"; ?>>
 
 <div id="header">
 

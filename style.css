@@ -166,9 +166,9 @@ h2 { text-transform: uppercase }
 
 #front-page #note {
   position: absolute;
-  bottom: 50px;
-  margin: 0 auto;
-  background-color: rgba(0,255,0,0.1);
+  bottom: 10px;
+  left: 50%;
+  margin-left: -495px;
 }
 
 #note a {
