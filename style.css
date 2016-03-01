@@ -32,7 +32,7 @@ h2 { text-transform: uppercase }
   text-align: center;
   height:80px;
   /*background-color: #cccccc;*/
-  background: rgba(160, 160, 160, 0.6);
+  background: rgba(160, 160, 160, 0.4);
   border-bottom: 1px solid #000;
 }
 
@@ -125,12 +125,9 @@ h2 { text-transform: uppercase }
   border:0;
 }
 
-#text  {
-/*  position:absolute;
-  top: 114px; */
+#text {
   width:900px;
   background-color: #eee;
-  /*font-family: Helvetica, Arial, sans-serif;*/
   font-size: 15px;
   color: #444;
   padding: 45px;
@@ -157,15 +154,21 @@ h2 { text-transform: uppercase }
   margin-bottom:20px;
 }
 
-.text-item p { float:right; width:600px }
-.info-item h2 {margin-top:0 }
+.text-item p  { float:right; width:600px; }
+.info-item h2 { margin-top:0; }
 
 #note {
   padding: 0;
-  /*font-family: Helvetica, Arial, sans-serif;*/
   font-size: 9px;
   letter-spacing: 1px;
   color: #777;
+}
+
+#front-page #note {
+  position: absolute;
+  bottom: 50px;
+  margin: 0 auto;
+  background-color: rgba(0,255,0,0.1);
 }
 
 #note a {
