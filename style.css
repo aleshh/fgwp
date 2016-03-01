@@ -32,7 +32,7 @@ h2 { text-transform: uppercase }
   text-align: center;
   height:80px;
   /*background-color: #cccccc;*/
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(160, 160, 160, 0.6);
   border-bottom: 1px solid #000;
 }
 
@@ -76,6 +76,8 @@ h2 { text-transform: uppercase }
   padding-left: 4px;
   margin: 0 5px 5px 5px;
   width: 150px;
+  transition: all;
+  transition-duration: .4s;
 }
 
 #menu a#home {
@@ -86,7 +88,10 @@ h2 { text-transform: uppercase }
   padding-top: 0;
 }
 
-#menu a:hover, #menu a.active  { background-color:  #b00;}
+#menu a:hover, #menu a.active  {
+  background-color:  #b00;
+  /*color: #000;*/
+}
 
 #caption {
   width:988px;
