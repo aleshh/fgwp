@@ -119,11 +119,27 @@ h2 { text-transform: uppercase }
 
 #caption a:hover { background-color:  #b00;}
 
-#image { height: 665px; }
+/*BEGIN FULL-WIDTH IMAGE EXPERIMENT*/
+
+#content {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+#image {
+  /*height: 665px; */
+  margin: 0;
+  width: 100vw;
+}
 
 #image img {
-  border:0;
+  /*border:0;*/
+  width: 100vw;
 }
+
+/*END FULL-WIDTH IMAGE EXPERIMENT*/
+
 
 #text {
   width:900px;
