@@ -65,6 +65,10 @@ h2 { text-transform: uppercase }
   padding-right: 59px;
 }
 
+/*#mobile-menu {
+  display: block;
+}*/
+
 #home img { border: 0;}
 
 #menu a {
@@ -210,5 +214,18 @@ h2 { text-transform: uppercase }
 }
 
 @media screen and (max-width: 1000px) {
+
+  .column, .column-joined {
+    display: none;
+  }
+
+  #title-box {
+    display: block;
+  }
+
+  #mobile-menu {
+    display: block;
+  }
+
 
 }

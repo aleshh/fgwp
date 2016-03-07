@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Felice Grodin </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/wp-content/themes/fgwp/style.css">
   <?php wp_head(); ?>
 </head>
@@ -15,10 +16,7 @@
   <div id="menu">
 
     <div class="column" id="title-box">
-      <a id="home" href="/" >
-        FELICE GRODIN
-        <!-- <img alt="Felice Grodin" src="/resources/felicegrodin2.gif" /> -->
-      </a>
+      <a id="home" href="/" >FELICE GRODIN</a>
     </div>
 
 
@@ -69,6 +67,10 @@
     ?>
 
     </div> <!-- .column -->
+
+    <div id="mobile-menu">
+      mobile menu
+    </div>
 
   </div> <!-- #menu -->
 
