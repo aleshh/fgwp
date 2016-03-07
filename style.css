@@ -31,9 +31,13 @@ h2 { text-transform: uppercase }
 #header {
   text-align: center;
   height:80px;
-  /*background-color: #cccccc;*/
-  background: rgba(160, 160, 160, 0.4);
+  background-color: #cccccc;
   border-bottom: 1px solid #000;
+}
+
+#front-page #header {
+  background: rgba(160, 160, 160, 0.5);
+  /*background: rgba(220, 220, 220, 0.6);*/
 }
 
 #menu, #content, #note {
@@ -122,20 +126,20 @@ h2 { text-transform: uppercase }
 /*BEGIN FULL-WIDTH IMAGE EXPERIMENT*/
 
 #content {
-  margin: 0;
+/*  margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100vw;*/
 }
 
 #image {
-  /*height: 665px; */
-  margin: 0;
+  height: 665px;
+/*  margin: 0;
   width: 100vw;
-}
+*/}
 
 #image img {
-  /*border:0;*/
-  width: 100vw;
+  border:0;
+  /*width: 100vw;*/
 }
 
 /*END FULL-WIDTH IMAGE EXPERIMENT*/
@@ -202,6 +206,7 @@ h2 { text-transform: uppercase }
   height: 100%;
   z-index: -100;
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 
