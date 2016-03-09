@@ -20,7 +20,9 @@
     </div>
 
     <div id="mobile-menu">
-      <a href="#">#</a>
+      <a href="#">
+        <img src="/wp-content/themes/fgwp/images/menu.svg" alt="Menu">
+      </a>
     </div>
 
 
