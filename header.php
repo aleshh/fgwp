@@ -19,6 +19,10 @@
       <a id="home" href="/" >FELICE GRODIN</a>
     </div>
 
+    <div id="mobile-menu">
+      <a href="#">#</a>
+    </div>
+
 
     <div class="column">
     <?php
@@ -68,9 +72,7 @@
 
     </div> <!-- .column -->
 
-    <div id="mobile-menu">
-      mobile menu
-    </div>
+
 
   </div> <!-- #menu -->
 

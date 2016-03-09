@@ -65,9 +65,9 @@ h2 { text-transform: uppercase }
   padding-right: 59px;
 }
 
-/*#mobile-menu {
-  display: block;
-}*/
+#mobile-menu {
+  display: none;
+}
 
 #home img { border: 0;}
 
@@ -213,19 +213,36 @@ h2 { text-transform: uppercase }
   background-position: 50% 50%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1021px) {
 
   .column, .column-joined {
     display: none;
+
   }
 
   #title-box {
     display: block;
+    border: none;
+  }
+
+  #menu a {
+    margin: 0;
   }
 
   #mobile-menu {
     display: block;
+    float: right;
   }
 
+  #mobile-menu a {
+    height: 46px;
+  }
+
+  #menu, #content, #note {
+    width: 100vw;
+    padding:8px;
+    text-align: left;
+    margin: 0 auto;
+  }
 
 }
