@@ -4,12 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Felice Grodin </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="/wp-content/themes/fgwp/includes/slidebars/slidebars.min.css">
   <link rel="stylesheet" href="/wp-content/themes/fgwp/style.css">
   <?php wp_head(); ?>
 </head>
 
 <body <?php if (is_front_page()) echo "id='front-page'"; ?>>
+<div id="sb-site">
+
+<div class="sb-slidebar sb-right">
+  sidebar
+
+</div>
 
 <div id="header">
 
@@ -19,7 +27,7 @@
       <a id="home" href="/" >FELICE GRODIN</a>
     </div>
 
-    <div id="mobile-menu">
+    <div id="mobile-menu" class="sb-toggle-right">
       <a href="#">
         <img src="/wp-content/themes/fgwp/images/menu.svg" alt="Menu">
       </a>
