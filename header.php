@@ -26,7 +26,7 @@
     $active = get_category(get_query_var('cat'))->name;
 
     foreach ($cat as $category) {
-      echo "<div class='mobile-link'>";
+      echo "<div class='mobile-menu'>";
       if ($category->name == $active) {
         echo "<a href='$link' class='active'>$category->name</a>";
       } else {
@@ -49,7 +49,7 @@
       <a id="home" href="/" >FELICE GRODIN</a>
     </div>
 
-    <div id="mobile-menu" class="sb-toggle-right">
+    <div id="mobile-link" class="sb-toggle-right">
       <a href="#">
         <img src="/wp-content/themes/fgwp/images/menu.svg" alt="Menu">
       </a>

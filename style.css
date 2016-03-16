@@ -233,13 +233,13 @@ h2 { text-transform: uppercase }
     height: 36px;
   }
 
-  #mobile-menu {
+  #mobile-link {
     display: block;
     float: right;
     text-align: center;
   }
 
-  #mobile-menu a {
+  #mobile-link a {
     height: 46px;
     width:  46px;
   }
