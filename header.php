@@ -15,7 +15,29 @@
 <div id="sb-site">
 
 <div class="sb-slidebar sb-right">
-  sidebar
+
+  <?php
+
+    $cat = get_categories( array(
+      'hide_empty'   => 0,
+      'orderby'     => 'name'
+      ));
+
+    $active = get_category(get_query_var('cat'))->name;
+
+    foreach ($cat as $category) {
+      echo "<div class='mobile-link'>";
+      if ($category->name == $active) {
+        echo "<a href='$link' class='active'>$category->name</a>";
+      } else {
+      echo "<a href='$link'>$category->name</a>";
+      }
+      echo "</div>";
+    }
+
+
+
+   ?>
 
 </div>
 
@@ -37,12 +59,7 @@
     <div class="column">
     <?php
 
-      $cat = get_categories( array(
-        'hide_empty'   => 0,
-        'orderby'     => 'name'
-        ));
 
-      $active = get_category(get_query_var('cat'))->name;
 
       $i = 0;
       $drawings = substr($cat[0]->name, 0, 3);
