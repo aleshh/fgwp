@@ -14,7 +14,8 @@
 <body <?php if (is_front_page()) echo "id='front-page'"; ?>>
 <div id="sb-site">
 
-<div class="sb-slidebar sb-right sb-style-overlay mobile-menu">
+<div class="sb-slidebar sb-right sb-style-overlay sb-width-thin"
+        id="mobile-menu">
 
   <?php
 
@@ -26,13 +27,13 @@
     $active = get_category(get_query_var('cat'))->name;
 
     foreach ($cat as $category) {
-      echo "<div>";
+      // echo "<div>";
       if ($category->name == $active) {
         echo "<a href='$link' class='active'>$category->name</a>";
       } else {
       echo "<a href='$link'>$category->name</a>";
       }
-      echo "</div>";
+      // echo "</div>";
     }
 
    ?>
@@ -44,7 +45,7 @@
   <div id="menu">
 
     <div class="column" id="title-box">
-      <a id="home" href="/" >FELICE GRODIN</a>
+      <a id="home" href="/" >Felice Grodin</a>
     </div>
 
     <div id="mobile-link" class="sb-toggle-right">
