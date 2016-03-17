@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Felice Grodin </title>
+  <title>Felice Grodin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <link rel="stylesheet" href="/wp-content/themes/fgwp/includes/slidebars/slidebars.min.css">
@@ -14,7 +14,7 @@
 <body <?php if (is_front_page()) echo "id='front-page'"; ?>>
 <div id="sb-site">
 
-<div class="sb-slidebar sb-right">
+<div class="sb-slidebar sb-right sb-style-overlay mobile-menu">
 
   <?php
 
@@ -26,7 +26,7 @@
     $active = get_category(get_query_var('cat'))->name;
 
     foreach ($cat as $category) {
-      echo "<div class='mobile-menu'>";
+      echo "<div>";
       if ($category->name == $active) {
         echo "<a href='$link' class='active'>$category->name</a>";
       } else {
@@ -35,11 +35,9 @@
       echo "</div>";
     }
 
-
-
    ?>
 
-</div>
+</div> <!-- sb-slidebar -->
 
 <div id="header">
 

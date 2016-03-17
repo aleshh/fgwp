@@ -65,13 +65,13 @@ h2 { text-transform: uppercase }
   padding-right: 59px;
 }
 
-#mobile-menu {
+#mobile-link {
   display: none;
 }
 
 #home img { border: 0;}
 
-#menu a {
+#menu a, .mobile-menu div a {
   display: block;
   background-color: #444;
   text-decoration: none;
