@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="68px" height="34px" viewBox="0 0 68 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.0 (7574) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+    <title>menu</title>
     <description>Created with Sketch.</description>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Group" sketch:type="MSLayerGroup" transform="translate(-24.000000, -40.000000)">
-            <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="0" width="115" height="115"></rect>
-            <path d="M25.5,41 L90.5,41" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M25.5,57 L90.5,57" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M25.5,73 L90.5,73" id="Line-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <g id="menu" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(-99.000000, -95.000000)">
+                <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="0" y="0" width="115" height="115"></rect>
+            </g>
+            <path d="M12.5,23.5 L35.5,23.5" id="Line" stroke="#FFFFFF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M12.5,16.5 L35.5,16.5" id="Line-4" stroke="#FFFFFF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M12.5,30.5 L35.5,30.5" id="Line-5" stroke="#FFFFFF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
