@@ -12,7 +12,7 @@
 </head>
 
 <body <?php if (is_front_page()) echo "id='front-page'"; ?>>
-<div id="sb-site">
+
 
 <div class="sb-slidebar sb-right sb-style-overlay sb-width-thin"
         id="mobile-menu">
@@ -27,6 +27,8 @@
     $active = get_category(get_query_var('cat'))->name;
 
     foreach ($cat as $category) {
+      $link = get_category_link($category->term_id);
+
       // echo "<div>";
       if ($category->name == $active) {
         echo "<a href='$link' class='active'>$category->name</a>";
@@ -39,6 +41,8 @@
    ?>
 
 </div> <!-- sb-slidebar -->
+
+<div id="sb-site">
 
 <div id="header">
 

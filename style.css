@@ -106,7 +106,10 @@ h2 { text-transform: uppercase }
   padding-top: 0;
 }
 
-#menu a:hover, #menu a.active  {
+#menu a:hover,
+#menu a.active,
+#mobile-menu a:hover,
+#mobile-menu a.active  {
   background-color:  #b00;
   /*color: #000;*/
 }
