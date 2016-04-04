@@ -281,3 +281,10 @@ h2 { text-transform: uppercase }
   }
 
 }
+
+@media screen and (max-width: 332px) {
+
+  /* shrinks the title box a smidge for the iphone 5*/
+  #menu a#home { width: 238px;}
+
+}
