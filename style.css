@@ -21,7 +21,7 @@ Text Domain: alesh-fgwp
 body {
   margin: 0;
   padding: 0;
-  background-color:#444;
+  background-color: #444;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
@@ -63,10 +63,6 @@ h2 { text-transform: uppercase }
 .column:last-child {
   border-right: 1px solid #444;
   padding-right: 59px;
-}
-
-#mobile-link {
-  display: none;
 }
 
 #mobile-menu {
@@ -111,10 +107,10 @@ h2 { text-transform: uppercase }
 /* Button that triggers Slidebar*/
 
 #mobile-link {
+  display: none;
   margin-right: 1px;
   width: 48px;
   height: 48px;
-  display: block;
   float: right;
   text-align: center;
 }
@@ -258,6 +254,10 @@ h2 { text-transform: uppercase }
 
   #header {
     height: 65px;
+  }
+
+  #mobile-link {
+    display: block;
   }
 
   .column, .column-joined {
