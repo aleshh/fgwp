@@ -38,6 +38,9 @@ h2 { text-transform: uppercase }
   background-color: #cccccc;
   border-bottom: 1px solid #000;
 }
+  @media (max-width: 1021px) {
+    #header { height: 65px; }
+  }
 
 #front-page #header {
   background: rgba(160, 160, 160, 0.5);
@@ -49,6 +52,14 @@ h2 { text-transform: uppercase }
   padding:8px;
   text-align: left;
   margin: 0 auto;
+  }
+  @media (max-width: 1021px) {
+    #menu, #content, #note {
+      width: auto;
+      padding:8px;
+      text-align: left;
+      margin: 0;
+    }
 }
 
 .column {
@@ -62,6 +73,18 @@ h2 { text-transform: uppercase }
   float: left;
   height: 67px;
   margin-left: -4px;
+}
+
+@media screen and (max-width: 1021px) {
+
+  .column, .column-joined {
+    display: none;
+  }
+
+  #title-box {
+    display: block;
+    border: none;
+  }
 }
 
 .column:last-child {
@@ -90,7 +113,11 @@ h2 { text-transform: uppercase }
   width: 150px;
   transition: all;
   transition-duration: .3s;
+  }
+  @media (max-width: 1021px) {
+    margin: 0;
 }
+
 
 #menu a#home {
   width: 250px;
@@ -99,6 +126,9 @@ h2 { text-transform: uppercase }
   font-size: 1.7em;
   padding-top: 0;
 }
+  @media (max-width: 332px) {
+    #menu a#home { width: 238px; }
+  }
 
 #menu a:hover,
 #menu a.active,
@@ -112,11 +142,14 @@ h2 { text-transform: uppercase }
 
 #mobile-link {
   display: none;
-  margin-right: 1px;
+  margin-right: 2px;
   width: 48px;
   height: 48px;
   float: right;
   text-align: center;
+  }
+  @media (max-width: 1021px) {
+    #mobile-link { display: block; }
 }
 
 #mobile-link a {
@@ -243,6 +276,7 @@ h2 { text-transform: uppercase }
 
 #note a:hover {text-decoration: underline;}
 
+/* big div to make the whole homepage image clickable */
 #full-page {
   position: absolute;
   top: 0;
@@ -252,48 +286,4 @@ h2 { text-transform: uppercase }
   z-index: -100;
   background-size: cover;
   background-position: 50% 50%;
-}
-
-@media screen and (max-width: 1021px) {
-
-  #header {
-    height: 65px;
-  }
-
-  #mobile-link {
-    display: block;
-  }
-
-  .column, .column-joined {
-    display: none;
-  }
-
-  #title-box {
-    display: block;
-    border: none;
-  }
-
-  #menu a {
-    margin: 0;
-  }
-
-  #menu a img {
-/*    width:  36px;
-    height: 36px;*/
-  }
-
-  #menu, #content, #note {
-    width: auto;
-    padding:8px;
-    text-align: left;
-    margin: 0;
-  }
-
-}
-
-@media screen and (max-width: 332px) {
-
-  /* shrinks the title box a smidge for the iphone 5*/
-  #menu a#home { width: 238px;}
-
 }
