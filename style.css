@@ -63,7 +63,8 @@ h2 { text-transform: uppercase }
   }
   @media (min-width: 1441px) {
     #menu, #content, #note {
-      width: 1390px;
+      width: 1200px;
+      background-color: rgba(0,255,0,0.1);
     }
 
 }
@@ -96,7 +97,12 @@ h2 { text-transform: uppercase }
 .column:last-child {
   border-right: 1px solid #444;
   padding-right: 59px;
-}
+  }
+  @media (min-width: 1441px) {
+    .column:last-child {
+      padding-right: 99px;
+    }
+  }
 
 #mobile-menu {
   padding: 10px;
@@ -122,8 +128,12 @@ h2 { text-transform: uppercase }
   }
   @media (max-width: 1021px) {
     #menu a, #mobile-menu a {margin: 0;}
-}
-
+  }
+  @media (min-width: 1441px) {
+    #menu a, #mobile-menu a {
+      width: 180px;
+    }
+  }
 
 #menu a#home {
   width: 250px;
@@ -217,15 +227,16 @@ h2 { text-transform: uppercase }
   width: 100vw;*/
 }
 
-#image {
+/*#image {
   height: 665px;
-/*  margin: 0;
-  width: 100vw;
-*/}
+  width: 100%;
+} */
 
-#image img {
+#content p img {
   border:0;
-  /*width: 100vw;*/
+  image: 100%;
+  /*width: calc(100% - 0);*/
+  /*width: 100%;*/
 }
 
 /*END FULL-WIDTH IMAGE EXPERIMENT*/

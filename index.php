@@ -19,7 +19,8 @@
         previous_post('%', 'back', 'no');
         next_post('%', 'next', 'no');
         the_title();
-        echo("</div><div id='image'>");
+        echo("</div>");
+        echo("<div id='image'>");
         the_content();
         echo("</div>");
     }
