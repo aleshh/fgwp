@@ -20,9 +20,9 @@
         next_post('%', 'next', 'no');
         the_title();
         echo("</div>");
-        echo("<div id='image'>");
+        // echo("<div id='image'>");
         the_content();
-        echo("</div>");
+        // echo("</div>");
     }
 }
 ?>

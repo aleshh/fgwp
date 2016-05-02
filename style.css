@@ -199,7 +199,6 @@ h2 { text-transform: uppercase }
   background-color: #ccc;
   border-left: 1px solid #fff;
 /*  border-right: 1px solid #444; */
-  /*font-family: Helvetica, Arial, sans-serif;*/
   font-weight: 400;
   font-size: 12px;
   color: #444;
@@ -234,9 +233,14 @@ h2 { text-transform: uppercase }
   width: 100%;
 } */
 
+#content p {
+  width: 100%;
+}
+
 #content p img {
   border:0;
-  image: 100%;
+  height: auto;
+  width: 100%;
   /*width: calc(100% - 0);*/
   /*width: 100%;*/
 }
